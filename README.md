@@ -45,12 +45,14 @@
 2. 导航到`images`文件夹
 3. 点击"Add file"按钮，然后选择"Upload files"
 4. 添加你的图片文件：
-   - 团队成员照片：命名为`member1.jpg`、`member2.jpg`等（HTML已经配置好这些文件名）
-   - 作品展示图片：命名为`work1.jpg`、`work2.jpg`、`work3.jpg`
-   - 合作伙伴logo：命名为`partner-placeholder.jpg`
+   - 团队成员照片：命名为`member1.JPG`、`member2.JPG`等（注意扩展名大写"JPG"）
+   - 作品展示图片：命名为`work1.JPG`、`work2.JPG`、`work3.JPG`（注意扩展名大写"JPG"）
+   - 合作伙伴logo：命名为`partner-placeholder.JPG`
 5. 点击"Commit changes"提交更改
 
-上传后，这些图片将自动显示在网站的相应部分。
+上传后，这些图片将自动显示在网站上相应的部分。
+
+**重要说明：** GitHub区分文件扩展名大小写，如果您使用`.JPG`（大写）上传文件，则HTML中的引用也必须使用`.JPG`。
 
 ## 许可
 
