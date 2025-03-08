@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>图片测试页面</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { color: #333; }
+        .image-test { margin-bottom: 30px; border: 1px solid #ddd; padding: 15px; border-radius: 5px; }
+        img { max-width: 100%; height: auto; display: block; margin-bottom: 10px; }
+        pre { background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>图片测试页面</h1>
+    <p>这个页面用来测试图片显示问题</p>
+
+    <div class="image-test">
+        <h2>测试 member1.JPG</h2>
+        <img src="images/member1.JPG" alt="Member 1">
+        <p>图片路径: <code>images/member1.JPG</code></p>
+    </div>
+
+    <div class="image-test">
+        <h2>测试 member2.JPG</h2>
+        <img src="images/member2.JPG" alt="Member 2">
+        <p>图片路径: <code>images/member2.JPG</code></p>
+    </div>
+
+    <div class="image-test">
+        <h2>测试 work1.JPG</h2>
+        <img src="images/work1.JPG" alt="Work 1">
+        <p>图片路径: <code>images/work1.JPG</code></p>
+    </div>
+
+    <div class="image-test">
+        <h2>测试 partner-placeholder.JPG</h2>
+        <img src="images/partner-placeholder.JPG" alt="Partner Placeholder">
+        <p>图片路径: <code>images/partner-placeholder.JPG</code></p>
+    </div>
+
+    <h2>建议使用的填充图像</h2>
+    <p>如果上面的图片无法显示，可以考虑使用以下在线占位图像服务提供的图片：</p>
+
+    <div class="image-test">
+        <h2>占位图片示例</h2>
+        <img src="https://placehold.co/400x300?text=ADDReC+Member" alt="Placeholder">
+        <p>这是一个在线占位图像。如果此图像显示但您的图片不显示，则表明问题可能与本地图片文件有关。</p>
+    </div>
+
+    <h2>排查建议</h2>
+    <ol>
+        <li>检查 GitHub 仓库中图片是否成功上传到 images 文件夹</li>
+        <li>确认图片文件名与此处使用的完全匹配（包括大小写）</li>
+        <li>清除浏览器缓存或使用隐私模式打开</li>
+        <li>等待 GitHub Pages 完全部署（有时需要 10-15 分钟）</li>
+    </ol>
+</body>
+</html>
